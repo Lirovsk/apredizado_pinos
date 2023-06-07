@@ -3,9 +3,9 @@
 
 
 // Definicacao de constantes
-const int csPin = 5;      // Chip Select ( Slave Select do protocolo SPI ) do modulo Lora
-const int resetPin = 4;   // Reset do modulo LoRa
-const int irqPin = 2;     // Pino DI0
+const int csPin = 24;      // Chip Select ( Slave Select do protocolo SPI ) do modulo Lora
+const int resetPin = 26;   // Reset do modulo LoRa
+const int irqPin = 28;     // Pino DI0
 String outgoing;          // outgoing message
 byte localAddress = 0xFF; // Endereco deste dispositivo LoRa
 byte msgCount = 0;        // Contador de mensagens enviadas
